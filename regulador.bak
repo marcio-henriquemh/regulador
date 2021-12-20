@@ -1,0 +1,118 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Project Regulador"
+Date ""
+Rev ""
+Comp ""
+Comment1 "Márcio Henrique"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Entry Bus Bus
+	-4250 9950 -4150 10050
+Entry Bus Bus
+	9950 4400 10050 4500
+$Comp
+L R R?
+U 1 1 601AB092
+P 4600 3400
+F 0 "R?" V 4680 3400 50  0000 C CNN
+F 1 "R" V 4600 3400 50  0000 C CNN
+F 2 "" V 4530 3400 50  0001 C CNN
+F 3 "" H 4600 3400 50  0001 C CNN
+	1    4600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 601AB198
+P 5200 2450
+F 0 "R?" V 5280 2450 50  0000 C CNN
+F 1 "R" V 5200 2450 50  0000 C CNN
+F 2 "" V 5130 2450 50  0001 C CNN
+F 3 "" H 5200 2450 50  0001 C CNN
+	1    5200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 601AB209
+P 3800 2450
+F 0 "C?" H 3825 2550 50  0000 L CNN
+F 1 "CP1" H 3825 2350 50  0000 L CNN
+F 2 "" H 3800 2450 50  0001 C CNN
+F 3 "" H 3800 2450 50  0001 C CNN
+	1    3800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 601AB254
+P 6850 2450
+F 0 "C?" H 6875 2550 50  0000 L CNN
+F 1 "CP1" H 6875 2350 50  0000 L CNN
+F 2 "" H 6850 2450 50  0001 C CNN
+F 3 "" H 6850 2450 50  0001 C CNN
+	1    6850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J?
+U 1 1 601AB2FB
+P 2500 2450
+F 0 "J?" H 2500 2550 50  0000 C CNN
+F 1 "Conn_01x02" H 2500 2250 50  0000 C CNN
+F 2 "" H 2500 2450 50  0001 C CNN
+F 3 "" H 2500 2450 50  0001 C CNN
+	1    2500 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x02 J?
+U 1 1 601AB835
+P 7900 2350
+F 0 "J?" H 7900 2450 50  0000 C CNN
+F 1 "Conn_01x02" H 7900 2150 50  0000 C CNN
+F 2 "" H 7900 2350 50  0001 C CNN
+F 3 "" H 7900 2350 50  0001 C CNN
+	1    7900 2350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
